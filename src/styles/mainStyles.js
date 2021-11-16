@@ -10,6 +10,14 @@ const colors = {
     colorBackground: '#9fa9a3',
 }
 
+export const Card = styled.div`
+    background-color: ${colors.colorGray};
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 2px solid ${colors.colorFont};
+`
+
 export const Button = styled.button`
     width: 100px;
     height: 40px;
