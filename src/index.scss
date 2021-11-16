@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+$color-dark: #618685;
+$color-medium: #80ced6;
+$color-light: #d5f4e6;
+$color-gray: #deeaee;
+$color-font: #3b3a30;
+$color-background: #9fa9a3;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Tenor Sans", sans-serif;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-background;
+  color: $color-font;
+}
